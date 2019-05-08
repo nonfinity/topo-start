@@ -1,0 +1,26 @@
+{
+  "envelopeID": 10001,
+  "formatVersion": 1.00,
+  "createTimestamp": "2019-04-28T22:41:43.511Z",
+  "displayName": "Test Envelope 01 - Target Margin",
+  "tenor": {
+    "start": "2019-05-01",
+    "end": { "date": ""
+           , "months": 12  } },
+  "revenueProduct": {
+    "priceBuckets": "atc",
+    "energyPrice": 0,
+    "demandPrice": 0,
+    "flatPrice": 0  },
+  "costProduct": "fpai",
+  "target": "margin",
+  "commission": [
+    { "agent": "Bob the Broker", "rate": 2.00, "structure": "all residual" }, 
+    { "agent": "Sam the Sales Rep", "rate": 0.20, "structure": "internal, sam" }
+  ],
+  "accountList": [
+    "1705714",
+    "1891164",
+    "1957233"
+  ]
+}

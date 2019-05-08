@@ -1,0 +1,171 @@
+{
+  "marketDate": "2019-04-25",
+  "formatVersion": 1.001,
+  "createTimestamp": "2019-04-28T22:41:43.511Z",
+
+  "energy": {
+    "ADHub": {
+      "2019-04-01": { "peak": 30.54, "wrap": 23.22 },
+      "2019-05-01": { "peak": 33.55, "wrap": 23.15 },
+      "2019-06-01": { "peak": 33.30, "wrap": 23.60 },
+      "2019-07-01": { "peak": 39.10, "wrap": 26.20 }
+    },
+    "PJMWest": {
+      "2019-05-01": { "peak": 34.12, "wrap": 23.56 }
+    }
+  },
+  "basis": {
+    "AEPZone": {
+      "source": "ADHub",
+      "method": "byMonth",
+      "bucketing": "OnOff",
+      "values": {
+        "Jan": { "peak": 0.75, "wrap": 0.25 },
+        "Feb": { "peak": 0.75, "wrap": 0.25 },
+        "Mar": { "peak": 0.75, "wrap": 0.25 },
+        "Apr": { "peak": 0.75, "wrap": 0.25 },
+        "May": { "peak": 0.75, "wrap": 0.25 },
+        "Jun": { "peak": 0.75, "wrap": 0.25 },
+        "Jul": { "peak": 0.75, "wrap": 0.25 },
+        "Aug": { "peak": 0.75, "wrap": 0.25 },
+        "Sep": { "peak": 0.75, "wrap": 0.25 },
+        "Oct": { "peak": 0.75, "wrap": 0.25 },
+        "Nov": { "peak": 0.75, "wrap": 0.25 },
+        "Dec": { "peak": 0.75, "wrap": 0.25 }
+      }
+    }
+  },
+  "hedge": {
+    "ADHub": { "peak": 0.50, "wrap": 0.50 },
+    "PJMWest": { "peak": 0.25, "wrap": 0.25 }
+  },
+  "capacity": {
+    "AEPZone": {
+      "2018-06-01": { "rate": 164.70},
+      "2019-06-01": { "rate": 101.51},
+      "2020-06-01": { "rate":  81.44},
+      "2021-06-01": { "rate": 148.96},
+      "2022-06-01": { "rate": 250.00}
+    },
+    "DAYZone": {
+      "2018-06-01": { "rate": 164.70},
+      "2019-06-01": { "rate": 101.51},
+      "2020-06-01": { "rate":  81.44},
+      "2021-06-01": { "rate": 148.96},
+      "2022-06-01": { "rate": 250.00}
+    },
+    "DEOKZone": {
+      "2018-06-01": { "rate": 164.70},
+      "2019-06-01": { "rate": 101.51},
+      "2020-06-01": { "rate": 109.60},
+      "2021-06-01": { "rate": 148.96},
+      "2022-06-01": { "rate": 250.00}
+    },
+    "ATSIZone": {
+      "2018-06-01": { "rate": 164.70},
+      "2019-06-01": { "rate": 101.51},
+      "2020-06-01": { "rate":  81.44},
+      "2021-06-01": { "rate": 167.47},
+      "2022-06-01": { "rate": 250.00}
+    }
+  },
+  "transmission": {
+    "AEPZone":  { "2019-01-01": { "rate": 10 } },
+    "DAYZone":  { "2019-01-01": { "rate": 10 } },
+    "DEOKZone": { "2019-01-01": { "rate": 10 } },
+    "ATSIZone": { "2019-01-01": { "rate": 10 } }
+  },
+  "arr": {
+    "AEPZone": {
+      "2018-06-01": { "rate": -11.38},
+      "2019-06-01": { "rate": -6},
+      "2020-06-01": { "rate": -3}
+    },
+    "DAYZone": {
+      "2018-06-01": { "rate": -4.04},
+      "2019-06-01": { "rate": -2},
+      "2020-06-01": { "rate": -1}
+    },
+    "DEOKZone": {
+      "2018-06-01": { "rate": -20.33},
+      "2019-06-01": { "rate": -10},
+      "2020-06-01": { "rate": -5}
+    },
+    "ATSIZone": {
+      "2018-06-01": { "rate": -9.27},
+      "2019-06-01": { "rate": -5},
+      "2020-06-01": { "rate": -2}
+    }
+  },
+  "rec": {
+    "OH": {
+      "obligationPct" :{
+        "2009-01-01": { "solar": 0.00004, "nonSolar": 0.00246 },
+        "2010-01-01": { "solar": 0.0001, "nonSolar": 0.0049 },
+        "2011-01-01": { "solar": 0.0003, "nonSolar": 0.0097 },
+        "2012-01-01": { "solar": 0.0006, "nonSolar": 0.0144 },
+        "2013-01-01": { "solar": 0.0009, "nonSolar": 0.0191 },
+        "2014-01-01": { "solar": 0.0012, "nonSolar": 0.0238 },
+        "2017-01-01": { "solar": 0.0015, "nonSolar": 0.0335 },
+        "2018-01-01": { "solar": 0.0018, "nonSolar": 0.0432 },
+        "2019-01-01": { "solar": 0.0022, "nonSolar": 0.0528 },
+        "2020-01-01": { "solar": 0.0026, "nonSolar": 0.0624 },
+        "2021-01-01": { "solar": 0.003, "nonSolar": 0.072 },
+        "2022-01-01": { "solar": 0.0034, "nonSolar": 0.0816 },
+        "2023-01-01": { "solar": 0.0038, "nonSolar": 0.0912 },
+        "2024-01-01": { "solar": 0.0042, "nonSolar": 0.1008 },
+        "2025-01-01": { "solar": 0.0046, "nonSolar": 0.1104 },
+        "2026-01-01": { "solar": 0.005, "nonSolar": 0.12 }
+      },
+      "marketPrice" : {
+        "2019-01-01": { "solar": 25, "nonSolar": 7.5 },
+        "2020-01-01": { "solar": 25, "nonSolar": 7.5 },
+        "2021-01-01": { "solar": 25, "nonSolar": 7.5 },
+        "2022-01-01": { "solar": 25, "nonSolar": 7.5 },
+        "2023-01-01": { "solar": 25, "nonSolar": 7.5 },
+        "2024-01-01": { "solar": 25, "nonSolar": 7.5 },
+        "2025-01-01": { "solar": 25, "nonSolar": 7.5 }
+      }
+    }
+  },
+  "ancillaries": {
+    "AEPZone":  { "2000-01-01" :{ "usage": 0.75, "demand": 4.00 } },
+    "DAYZone":  { "2000-01-01" :{ "usage": 0.75, "demand": 4.00 } },
+    "DEOKZone": { "2000-01-01" :{ "usage": 0.75, "demand": 4.00 } },
+    "ATSIZone": { "2000-01-01" :{ "usage": 0.75, "demand": 4.00 } }
+  },
+  "losses": {
+    "AEPZone": {
+      "secondary": 0.06,
+      "primary": 0.02,
+      "transmission": 0.01 
+    },
+    "DAYZone": {
+      "secondary": 0.06,
+      "primary": 0.02,
+      "transmission": 0.01
+    },
+    "DEOKZone": {
+      "secondary": 0.06,
+      "primary": 0.02,
+      "transmission": 0.01
+    },
+    "ATSIZone": {
+      "secondary": 0.06,
+      "primary": 0.02,
+      "transmission": 0.01
+    }
+  },
+  "business": {
+    "revenueTaxes": {
+      "OH": 0.0041,
+      "PA": 0.0750
+    },
+    "riskAdder": 2.00,
+    "WACC": 0.095,
+    "perAccountCost": {
+      "startUp": 10,
+      "monthly": 0.25
+    }
+  }
+}

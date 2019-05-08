@@ -1,0 +1,35 @@
+{
+  "retailElectricity": {
+    "recBuckets" : {
+      "OH": ["solar","nonSolar"],
+      "PA": ["tier1","tier2","solar"],
+      "IN": ["all"]
+    },
+    "lossMap" : {
+      "AEPZone" : {
+        "CCOHDM2O": "secondary",
+        "CCOHDM2U": "secondary",
+        "CCOHDMPO": "primary",
+        "CCOHDMPU": "primary",
+        "CCOHDMTO": "transmission",
+        "CCOHDMTU": "primary",
+        "CCOHFLAT": "secondary",
+        "CCOHLITE": "secondary",
+        "CCOHNONA": "secondary",
+        "CCOHRESA": "secondary"
+      },
+      "DAYZone" : {
+        "None" : "secondary"
+      }
+    }
+  },
+  "wholesaleElectricity": {
+
+  },
+  "retailGas": {
+
+  },
+  "wholesaleGas": {
+    
+  }
+}
