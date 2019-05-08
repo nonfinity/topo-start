@@ -1,0 +1,32 @@
+{
+  "envelopeID": 10003,
+  "formatVersion": 1.01,
+  "createTimestamp": "2019-04-28T22:41:43.511Z",
+  "displayName": "Test Env003 - Diff Accounts",
+  "tenor": {
+    "start": "2019-09-01",
+    "end": { "date": "2021-05-31"
+           , "months": null  } },
+  "services": [
+    {
+      "service": "retailElectricity",
+      "revenueProduct": {
+      "priceBuckets": "atc",
+      "energyPrice": 0,
+      "demandPrice": 0,
+      "flatPrice": 0  },
+      "costProduct": "fpai",
+      "target": "margin",
+      "commission": [
+        { "agent": "Bob the Broker", "rate": 2.00, "structure": "all residual" }, 
+        { "agent": "Sam the Sales Rep", "rate": 0.20, "structure": "internal, sam" }
+      ],
+      "accountList": [
+        "1781982",
+        "1959905",
+        "1806558",
+		"1891164"
+      ]
+    }
+  ]
+}
