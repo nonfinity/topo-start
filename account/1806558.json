@@ -1,0 +1,72 @@
+{	
+"AccountID":	"1806558",
+"AccountName": 	"TestAcct-1806558",
+"LoadProfile": "RESGH",	
+"RateCode": "R52",	
+"costZone": "AEP",	
+"deliveryPoint": "AEPZone",	
+"state": "OH",	
+"readCycle": "08",	
+"capacity": [	
+	{"from":"2017-06-01", "quantity":"2.12", "quality": "utility"}
+	
+	
+	
+	
+], "transmission": [	
+	{"from":"2017-01-01", "quantity":"1.98", "quality": "utility"}
+	
+	
+	
+	
+],	
+"profile": {	
+"Jan": {	
+"Peak":	"139.81818",
+"WkEnd":	"47.94667",
+"Night":	"79.12894"},
+"Feb": {	
+"Peak":	"104.62744",
+"WkEnd":	"47.12191",
+"Night":	"64.52225"},
+"Mar": {	
+"Peak":	"119.48442",
+"WkEnd":	"58.80955",
+"Night":	"78.03831"},
+"Apr": {	
+"Peak":	"113.44068",
+"WkEnd":	"46.31958",
+"Night":	"67.09524"},
+"May": {	
+"Peak":	"238.3261",
+"WkEnd":	"78.36539",
+"Night":	"108.74725"},
+"Jun": {	
+"Peak":	"387.95293",
+"WkEnd":	"202.0967",
+"Night":	"171.41281"},
+"Jul": {	
+"Peak":	"575.14411",
+"WkEnd":	"202.23023",
+"Night":	"225.69809"},
+"Aug": {	
+"Peak":	"507.522",
+"WkEnd":	"220.48048",
+"Night":	"200.07848"},
+"Sep": {	
+"Peak":	"376.72332",
+"WkEnd":	"167.04613",
+"Night":	"175.29306"},
+"Oct": {	
+"Peak":	"342.38998",
+"WkEnd":	"139.1581",
+"Night":	"183.82171"},
+"Nov": {	
+"Peak":	"323.78622",
+"WkEnd":	"144.49526",
+"Night":	"192.71852"},
+"Dec": {	
+"Peak":	"206.09116",
+"WkEnd":	"83.90606",
+"Night":	"117.04858"}
+} }	
