@@ -1,0 +1,72 @@
+{	
+"AccountID":	"1800184",
+"AccountName": 	"TestAcct-1800184",
+"LoadProfile": "RESGH",	
+"RateCode": "CCOHRESA",	
+"costZone": "AEP",	
+"deliveryPoint": "AEPZone",	
+"state": "OH",	
+"readCycle": "08",	
+"capacity": [	
+	{"from":"2016-06-01", "quantity":"5.49", "quality": "utility"},
+	{"from":"2017-06-01", "quantity":"3.5", "quality": "utility"},
+	{"from":"2018-06-01", "quantity":"1.9", "quality": "utility"},
+	{"from":"2019-06-01", "quantity":"1.44", "quality": "utility"}
+	
+], "transmission": [	
+	{"from":"2017-01-01", "quantity":"3.34", "quality": "utility"}
+	
+	
+	
+	
+],	
+"profile": {	
+"Jan": {	
+"Peak":	"265.36648",
+"WkEnd":	"139.59094",
+"Night":	"175.83845"},
+"Feb": {	
+"Peak":	"237.37029",
+"WkEnd":	"99.3235",
+"Night":	"150.379"},
+"Mar": {	
+"Peak":	"168.89948",
+"WkEnd":	"72.3211",
+"Night":	"106.84747"},
+"Apr": {	
+"Peak":	"132.30597",
+"WkEnd":	"66.16956",
+"Night":	"80.12908"},
+"May": {	
+"Peak":	"234.02081",
+"WkEnd":	"127.84197",
+"Night":	"120.93459"},
+"Jun": {	
+"Peak":	"352.48144",
+"WkEnd":	"149.469",
+"Night":	"145.9844"},
+"Jul": {	
+"Peak":	"340.83526",
+"WkEnd":	"165.01368",
+"Night":	"139.70532"},
+"Aug": {	
+"Peak":	"288.81942",
+"WkEnd":	"121.71569",
+"Night":	"113.90881"},
+"Sep": {	
+"Peak":	"173.76043",
+"WkEnd":	"86.69706",
+"Night":	"75.61115"},
+"Oct": {	
+"Peak":	"143.17089",
+"WkEnd":	"69.70668",
+"Night":	"78.74284"},
+"Nov": {	
+"Peak":	"180.152",
+"WkEnd":	"93.31342",
+"Night":	"113.87788"},
+"Dec": {	
+"Peak":	"217.01605",
+"WkEnd":	"109.95482",
+"Night":	"137.93773"}
+} }	
