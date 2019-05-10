@@ -1,8 +1,8 @@
 {	
-"AccountID":	"1781982",
-"AccountName": 	"TestAcct-1781982",
-"LoadProfile": "RESGH",	
-"RateCode": "CCOHDMTU",	
+"accountID":	"1781982",
+"accountName": 	"TestAcct-1781982",
+"loadProfile": "RESGH",	
+"rateCode": "CCOHDMTU",	
 "costZone": "AEP",	
 "deliveryPoint": "AEPZone",	
 "state": "OH",	

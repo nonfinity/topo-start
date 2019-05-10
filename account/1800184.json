@@ -1,8 +1,8 @@
 {	
-"AccountID":	"1800184",
-"AccountName": 	"TestAcct-1800184",
-"LoadProfile": "RESGH",	
-"RateCode": "CCOHRESA",	
+"accountID":	"1800184",
+"accountName": 	"TestAcct-1800184",
+"loadProfile": "RESGH",	
+"rateCode": "CCOHRESA",	
 "costZone": "AEP",	
 "deliveryPoint": "AEPZone",	
 "state": "OH",	

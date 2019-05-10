@@ -1,8 +1,8 @@
 {	
-"AccountID":	"1806558",
-"AccountName": 	"TestAcct-1806558",
-"LoadProfile": "RESGH",	
-"RateCode": "CCOHDMPU",	
+"accountID":	"1806558",
+"accountName": 	"TestAcct-1806558",
+"loadProfile": "RESGH",	
+"rateCode": "CCOHDMPU",	
 "costZone": "AEP",	
 "deliveryPoint": "AEPZone",	
 "state": "OH",	
